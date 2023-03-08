@@ -1,0 +1,22 @@
+Searching 4217 files for "DataTable().reload()"
+
+E:\php\koena_new\Koena\assets\js\page\plan.js:
+  270          // notifyme.showNotification(response["status"], response["message"]);
+  271  
+  272:         $("#plan_users_list").DataTable().reload();
+  273        } else {
+  274          // notifyme.showNotification(response["status"], response["message"]);z
+  ...
+  295          }
+  296  
+  297:         $("#plan_users_list").DataTable().reload();
+  298        },
+  299      });
+  ...
+  320          if (response["status"] == "success") {
+  321            // notifyme.showNotification(response["status"], response["message"]);
+  322:           $("#plan_users_list").DataTable().reload();
+  323          } else if (response["status"] == "error") {
+  324            // notifyme.showNotification(response["status"], response["message"]);
+
+3 matches in 1 file
